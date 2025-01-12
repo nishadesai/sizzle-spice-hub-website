@@ -36,9 +36,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/products" className="hover:text-gray-300">Products</a></li>
-              <li><a href="/about" className="hover:text-gray-300">About Us</a></li>
-              <li><a href="/contact" className="hover:text-gray-300">Contact Us</a></li>
+              <li><a href="/sizzle-spice-hub-website/products" className="hover:text-gray-300">Products</a></li>
+              <li><a href="/sizzle-spice-hub-website/about" className="hover:text-gray-300">About Us</a></li>
+              <li><a href="/sizzle-spice-hub-website/contact" className="hover:text-gray-300">Contact Us</a></li>
             </ul>
           </div>
         </div>
