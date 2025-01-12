@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 
 const Footer = () => {
   return (
@@ -36,9 +37,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/sizzle-spice-hub-website/products" className="hover:text-gray-300">Products</a></li>
-              <li><a href="/sizzle-spice-hub-website/about" className="hover:text-gray-300">About Us</a></li>
-              <li><a href="/sizzle-spice-hub-website/contact" className="hover:text-gray-300">Contact Us</a></li>
+              <li><Link to="/products" className="hover:text-gray-300">Products</Link></li> {/* Use Link component */}
+              <li><Link to="/about" className="hover:text-gray-300">About Us</Link></li> {/* Use Link component */}
+              <li><Link to="/contact" className="hover:text-gray-300">Contact Us</Link></li> {/* Use Link component */}
             </ul>
           </div>
         </div>
