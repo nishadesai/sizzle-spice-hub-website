@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sizzlespicehub.github.io/sizzle-spice-hub-website", 
+  "homepage": "https://nishadesai.github.io/sizzle-spice-hub-website", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
