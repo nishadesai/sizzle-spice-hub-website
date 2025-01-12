@@ -10,7 +10,7 @@ import Priv from './pages/Privacy';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sizzle-spice-hub-website">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
@@ -19,7 +19,7 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy-policy" element={<Priv/>} />
+            <Route path="/privacy-policy" element={<Priv />} />
           </Routes>
         </main>
         <Footer />
