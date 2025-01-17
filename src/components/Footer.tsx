@@ -37,28 +37,42 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/products" className="hover:text-gray-300">Products</Link></li> {/* Use Link component */}
-              <li><Link to="/about" className="hover:text-gray-300">About Us</Link></li> {/* Use Link component */}
-              <li><Link to="/contact" className="hover:text-gray-300">Contact Us</Link></li> {/* Use Link component */}
+              <li><Link to="/products" className="hover:text-gray-300">Products</Link></li>
+              <li><Link to="/about" className="hover:text-gray-300">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-gray-300">Contact Us</Link></li>
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-700">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-6">
             <p>&copy; {new Date().getFullYear()} Sizzle Spice Hub. All rights reserved.</p>
-            <div className="mt-4 md:mt-0 space-x-6">
-              <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300">
+            <div className="flex space-x-6">
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300">
                 Data Privacy
               </Link>
               <Link to="/impressum" className="text-gray-400 hover:text-gray-300">
                 Imprint
               </Link>
             </div>
-          </div>
-          </div>
-      </div>
+          </div>    
+        </div>
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-2">
+            <p>Design and Development:</p>
+              <a 
+                href="https://softwicklung.de/" 
+                className="text-gray-400 hover:text-gray-300" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Softwicklung IT-Solutions
+              </a>
+      
+          </div>    
+        </div>
+
     </footer>
+
   );
 };
 
