@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImage from '../images/about.jpg';
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
           <h1 className="text-3xl font-bold text-gray-900 mb-6">About Us</h1>
           <div className="mb-12">
           <img 
-            src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" 
+            src={aboutImage} 
             alt="Spice Market"
             className="w-full h-[400px] object-cover rounded-lg mb-8"
           />

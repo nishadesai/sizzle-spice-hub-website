@@ -44,9 +44,19 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Sizzle Spice Hub. All rights reserved.</p>
-        </div>
+        <div className="mt-8 pt-8 border-t border-gray-700">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; {new Date().getFullYear()} Sizzle Spice Hub. All rights reserved.</p>
+            <div className="mt-4 md:mt-0 space-x-6">
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-gray-300">
+                Data Privacy
+              </Link>
+              <Link to="/impressum" className="text-gray-400 hover:text-gray-300">
+                Imprint
+              </Link>
+            </div>
+          </div>
+          </div>
       </div>
     </footer>
   );

@@ -242,7 +242,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-colors"
+            className="w-full bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors"
           >
             Let's talk
           </button>

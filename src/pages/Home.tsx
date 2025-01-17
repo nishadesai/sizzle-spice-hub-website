@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
+import homeImage from '../images/home.jpg'; 
 
 const Home = () => {
   const featuredProducts = products.slice(0, 3);
@@ -12,7 +13,7 @@ const Home = () => {
       <div 
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=2000&q=80")'
+          backgroundImage: `url(${homeImage})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
